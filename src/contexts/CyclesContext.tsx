@@ -35,8 +35,9 @@ export function CyclesContextProvider({
   children,
 }: CyclesContextProviderProps) {
   const [cycles, dispatch] = useReducer((state: Cycle[], action: any) => {
-    console.log(state)
-    console.log(action)
+    if (action.type === 'ADD_NEW_CYCLE') {
+      return [...state, action.payload.newCycle]
+    }
 
     return state
   }, [])
