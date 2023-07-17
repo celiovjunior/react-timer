@@ -1,4 +1,7 @@
-# React Timer
+<h1 align="center">
+⏰ React Timer ⏰
+</h1>
+
 
 ![print home page](stopwatchWebApp.png)
 
