@@ -31,7 +31,7 @@ Web application built following the Ignite Bootcamp, provided by online programm
 - [npm](https://www.npmjs.com/) ```(v9.5)```;
 - [vite](https://vitejs.dev/);
 
-## Local downlaod:
+## Running locally:
 
 > Before installing the project, make sure that you have [Node](https://nodejs.org/en) and [GIT](https://git-scm.com/) already installed in your machine.
 
@@ -39,7 +39,7 @@ Web application built following the Ignite Bootcamp, provided by online programm
 
 2. Run the following commands:
 
-```git
+```shell
 # clone repository:
 git clone git@github.com:celiovjunior/react-timer.git
 
