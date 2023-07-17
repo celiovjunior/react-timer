@@ -1,56 +1,56 @@
-React Timer
+# React Timer
 
-(doc in PT-BR) 
 
-Aplicação web front-end
+## About:
 
-Sobre:
-Cronômetro onde o usuário pode cadastrar tarefas e determinar um tempo de foco enquanto as executa.
-A aplicação também possui um sinalizador que indica o status do cronômentro (em andamento, concluído ou cancelado/parado).
+Stopwatch like application where the client can register a new task and register a time for it execution. <br>
+The application also have a indicator where the user can follow if the time is running, paused ou finished. <br>
 
-Apicação feita duranto o bootcamp Ignite, oferecido pela escola online de programação Rocketseat.
+Web application built following the Ignite Bootcamp, provided by online programming school [Rocketseat](https://www.rocketseat.com.br/). <br>
 
-Demo:
-https://react-timer-six.vercel.app/
 
-Principais ferramentas:
-- React (v18.02);
-- Typescript (v4.6);
-- Styled-components (v5.3)
+**Demo**: https://react-timer-six.vercel.app/
 
-Gerenciador de pacote:
-- Node (v18);
-- npm (v9.5);
-- vite
 
-Instalação local:
+## User actions:
 
-Antes da instalação:
+- Can register a new task (form above the timer);
+- Can set a time (multiple of 5);
+- Can navigate between the homepage (stopwatch) and the task list;
+- Can follow the status of the time according to the color.
 
-Para rodar o projeto localmente, certifique-se de que você tenha o Node e o GIT instalando na sua máquina
-- Node
-- GIT
 
-1) Abra o terminal de sua preferência.
+## Main tools:
 
-2) Execute os seguintes comandos:
+- [React](https://react.dev/) ```(v18.02)``` ;
+- [Typescript](https://www.typescriptlang.org/docs/) ```(v4.6)```;
+- [Styled-components](https://styled-components.com/) ```(v5.3)```;
 
-Clone o repositório:
+## Package manager:
+
+- [npm](https://www.npmjs.com/) ```(v9.5)```;
+- [vite](https://vitejs.dev/);
+
+## Local downlaod:
+
+> Before installing the project, make sure that you have [Node](https://nodejs.org/en) and [GIT](https://git-scm.com/) already installed in your machine.
+
+1. Open your favorite terminal.
+
+2. Run the following commands:
+
+```git
+# clone repository:
 git clone git@github.com:celiovjunior/react-timer.git
 
-Entre no diretório raiz do projeto:
+# go to the project folder:
 cd react-timer
 
-Instale os pacotes necessários:
+# install the necessary dependencies:
 npm install
 
-Execute o projeto:
+# execute the project:
 npm run dev
+```
 
-A aplicação irá iniciar na porta http://localhost:5173
-
-Ações do usuário:
-- Pode cadastrar uma tarefa (formulário acima do cronômetro);
-- Pode determinar um tempo multiplo de 5 minutos;
-- Pode navegar entre a tela principal (cronômetro) e a lista de tarefas registradas;
-- Pode acompanhar o status do cronômetro (em andamento, interrompito e concluído);
+Application will start at port http://localhost:5173
