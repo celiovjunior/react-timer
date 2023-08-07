@@ -3,7 +3,7 @@
 </h1>
 
 
-![print home page](stopwatchWebApp.png)
+![print home page](home-preview.png)
 
 ## About:
 
