@@ -1,5 +1,5 @@
-<h1 align="center">
-⏰ React Timer ⏰
+<h1>
+React Timer
 </h1>
 
 
