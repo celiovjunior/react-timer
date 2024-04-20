@@ -7,7 +7,7 @@ React Timer
 
 ## About:
 
-Stopwatch web application where the client can register a new task and set up a time for it execution. <br>
+Stopwatch web application where the user can register a new task and set up a time for it execution. <br>
 The application also have a indicator where the user can follow if the time is running, paused ou finished. <br>
 
 Web application built following the Ignite Bootcamp, provided by online programming school [Rocketseat](https://www.rocketseat.com.br/). <br>
